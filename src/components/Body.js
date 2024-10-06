@@ -1,4 +1,4 @@
-import my_photo from "../Assests/images/my_photo.jpeg"
+import photo from "../Assests/images/photo.jpeg"
 
 const Body=()=>{
     return (
@@ -14,7 +14,7 @@ const Body=()=>{
                 I am a React Js Developer and passionate to make user friendly website.<span className="text-sm font-serif ml-6 text-gray-400">“Great web design without functionality is like a sports car with no engine.”</span>  
               </p>
             </div>
-            <img className=" w-1/4 rounded-full mx-10 my-2" src={my_photo} alt="satya photo" /> 
+            <img className=" w-1/4 rounded-full mx-10 my-2" src={photo} alt="satya photo" /> 
          </div>
         </>
     )
