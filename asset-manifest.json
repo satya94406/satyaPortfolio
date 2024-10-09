@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/satyaPortfolio/static/css/main.79b833bf.css",
+    "main.js": "/satyaPortfolio/static/js/main.697c58e8.js",
+    "static/js/453.000113e4.chunk.js": "/satyaPortfolio/static/js/453.000113e4.chunk.js",
+    "static/media/photo.jpeg": "/satyaPortfolio/static/media/photo.ac90cef799782d303cd4.jpeg",
+    "static/media/logo.jpeg": "/satyaPortfolio/static/media/logo.37c1d135cfa6f3787d63.jpeg",
+    "index.html": "/satyaPortfolio/index.html",
+    "main.79b833bf.css.map": "/satyaPortfolio/static/css/main.79b833bf.css.map",
+    "main.697c58e8.js.map": "/satyaPortfolio/static/js/main.697c58e8.js.map",
+    "453.000113e4.chunk.js.map": "/satyaPortfolio/static/js/453.000113e4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79b833bf.css",
+    "static/js/main.697c58e8.js"
+  ]
+}
