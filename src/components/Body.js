@@ -14,8 +14,8 @@ const Body = () => {
 
   return (
     <>
-      <div className="bg-slate-300 pt-16">
-        <div className="flex flex-col md:flex-row items-center justify-center bg-slate-700 px-4 pb-5">
+      <div className="bg-slate-300 pt-16 h-screen">
+        <div className="flex flex-col md:flex-row items-center justify-center bg-slate-700 px-4 pb-5 ">
           <div className={`text-center md:text-left md:ml-8 ${bounce ? 'animate-bounce ' : ''}`}>
             <h1 className="font-bold text-2xl text-zinc-300 mb-2">Hello,</h1>
             <h1 className="font-bold text-4xl text-zinc-50 mb-2"> I'm <span className="text-yellow-500 animate-pulse">Satya Prakash</span></h1>
