@@ -1,22 +1,23 @@
 import React from "react";
 import Header from "./components/Header";
 import Body from "./components/Body";
-import { BrowserRouter ,Route,Routes,Router } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom"; // Import HashRouter
 import About from "./components/About";
 import Contact from "./components/Contact";
-const App=()=>{
+
+const App = () => {
   return (
-    <div >
-      <BrowserRouter>
-         <Header />
-         <Routes>
-              <Route path='/satyaPortfolio' element={<Body/>}/>
-              <Route path='/About' element={<About/>}/>
-              <Route path='Contact' element={<Contact/>}/>
-          </Routes>
-      </BrowserRouter> 
+    <div>
+      <Router> 
+        <Header />
+        <Routes>
+          <Route path="/" element={<Body />} /> 
+          <Route path="/about" element={<About />} /> 
+          <Route path="/contact" element={<Contact />} /> 
+        </Routes>
+      </Router>
     </div>
   );
-}
+};
 
 export default App;
