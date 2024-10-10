@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import photo from "../Assests/images/photo.jpeg";
 import Footer from "./Footer";
+import Project from "./Project";
 
 const Body = () => {
   const [bounce, setBounce] = useState(true);
@@ -14,7 +14,7 @@ const Body = () => {
 
   return (
     <>
-      <div className="bg-slate-300 pt-16 h-screen">
+      <div className="bg-slate-300 pt-16 ">
         <div className="flex flex-col md:flex-row  items-center justify-center bg-slate-700  px-4 pb-5 ">
           <div className={`text-center md:text-left md:ml-8 ${bounce ? 'animate-bounce ' : ''}`}>
             <h1 className="font-bold text-2xl text-zinc-300 mb-2">Hello,</h1>
@@ -26,6 +26,7 @@ const Body = () => {
           </div>
           <img className="w-1/4 pt-4 rounded-full mt-6 md:mt-0 md:ml-10 hidden md:block" src={photo} alt="Satya Prakash" />
         </div>
+        <Project/>
         <Footer />
       </div>
     </>

@@ -5,7 +5,7 @@ import Footer from "./Footer";
 const Contact=()=>{
     return(
         <>
-          <div className="bg-slate-300  pt-16  h-screen">
+          <div className="bg-slate-300  pt-16 ">
            <h1 className="text-xl pt-4 font-extrabold pl-3">Contact Me </h1><br/>
            <ul className="pb-4 pl-3">
               <li><strong>Name:</strong>Satya Prakash Tripathi</li>

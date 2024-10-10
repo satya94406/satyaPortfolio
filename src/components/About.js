@@ -3,7 +3,7 @@ import Footer from "./Footer";
 const About = () => {
   return (
     <>
-      <div className="bg-slate-300   pt-16">
+      <div className="bg-slate-300 pt-16 ">
           <h1 className="text-4xl font-bold text-gray-800 mb-8 text-center">
             About Me
           </h1>
@@ -18,7 +18,6 @@ const About = () => {
             <li className="pb-2 ml-2 animate-fadeIn delay-[8000ms]">🚀  I am keen to explore AI/ML-related skills.</li>
             <li className="pb-4 ml-2 animate-fadeIn delay-[9000ms]">🚀  I am also a member of the Geek Room in the Department of DSA.</li>
           </ul>
-
         <Footer />
       </div>
     </>
