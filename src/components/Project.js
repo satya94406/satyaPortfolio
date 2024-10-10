@@ -25,7 +25,7 @@ const Project=()=>{
           <div className="flex justify-center p-2 items-center ">
           <div className="flex flex-col">
              <h1 className="text-sm">"I've created a <span className="text-amber-400 font-extrabold text-2xl  animate-pulse " >Wheather</span> clone using  React js, with real-time or mock data for weather updates."</h1>
-             <a href="https://github.com/satya94406/youtube" target="_blank"><button className="w-24 h-5 rounded-lg text-sm bg-red-400 text-sky-800 font-semibold ">source code</button></a>
+             <a href="https://github.com/satya94406/weather" target="_blank"><button className="w-24 h-5 rounded-lg text-sm bg-red-400 text-sky-800 font-semibold ">source code</button></a>
              <span className="text-sky-800 text-xs font-serif">"Click the image for a website link."</span>
             </div>
           <a href="https://satya94406.github.io/weather/" target="_blank"><img className=" pl-1 h-44 md:h-48  w-72 md:w-80" src={wheather} /></a>   
@@ -34,7 +34,7 @@ const Project=()=>{
           <div className="flex justify-center px-2 items-center ">
           <div className="flex flex-col">
              <h1 className="text-sm">"I've created a partial<span className="text-amber-400 font-extrabold text-2xl  animate-pulse ">Swiggy</span> clone using Firebase, Tailwind CSS, and React.js, with fake API data"</h1>
-             <a href="https://github.com/satya94406/youtube" target="_blank"><button className="w-24 h-5 rounded-lg text-sm bg-red-400 text-sky-800 font-semibold ">source code</button></a>
+             <a href="https://github.com/satya94406/swiggy" target="_blank"><button className="w-24 h-5 rounded-lg text-sm bg-red-400 text-sky-800 font-semibold ">source code</button></a>
              <span className="text-sky-800 text-xs font-serif">"Click the image for a website link."</span>
           </div>  
              <a href="https://satya94406.github.io/swiggy/" target="_blank"><img className=" pl-1 w-76 md:w-80 h-32 md:h-44 " src={swiggy} /></a>
