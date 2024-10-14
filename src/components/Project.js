@@ -10,7 +10,7 @@ const Project=()=>{
        }, 5000);
      },[])
     return(
-       <div>
+       <div >
           <h1 className={`text-center text-rose-700 font-semibold text-3xl p-2 ${ping ? 'animate-ping' : '' }`}> PROJECT</h1>
           
           <div className="flex justify-center p-2 items-center">
