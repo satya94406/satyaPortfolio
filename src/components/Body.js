@@ -1,59 +1,33 @@
-import { useEffect, useState } from "react";
-import photo from "../Assests/images/photo.jpeg";
 import Footer from "./Footer";
 import Project from "./Project";
-import TypewriterComponent from "typewriter-effect";
+import Education_Timeline from "./Education_Timeline";
+import Skill from "./Skill";
+import Contact from "./Contact";
+import ScrollToTop from "./ScrollToUp";
+import About from "./About";
+
 const Body = () => {
-  const [bounce, setBounce] = useState(true);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setBounce(false);
-    }, 1000);
-    }, []);
-
   return (
-    <>
-      <div className="bg-slate-300  md:pt-10 ">
-        <div className="flex flex-col md:flex-row  items-center justify-center bg-slate-700  px-4 pt-16 md:pt-0 h-screen">
-          <div className={`text-center flex-wrap md:text-left md:ml-8 ${bounce ? 'animate-spin' : ''}`}>
-            <h1 className="font-bold text-4xl md:text-2xl text-zinc-300 mb-2">Hello,</h1>
-            <h1 className="font-bold text-7xl md:text-4xl text-zinc-50 mb-2"> I'm <span className="text-yellow-500 animate-pulse">Satya Prakash</span></h1>
-            <h1 className="font-bold text-6xl md:text-3xl text-zinc-50 mb-4"><span className="inline-block">
+    <div className="bg-slate-700 md:pt-14"> 
+      <ScrollToTop />
+      <section id="about" className="scroll-mt-20">
+        <About/>
+      </section>
+      <section id="education" className="scroll-mt-20">
+        <Education_Timeline />
+      </section>
+      <section id="projects" className="scroll-mt-20">
+        <Project />
+      </section>
+      <section id="skills" className="scroll-mt-20">
+        <Skill />
+      </section>
+      <section id="contact" className="scroll-mt-20">
+        <Contact />
+      </section>
 
-            <TypewriterComponent
-                 options={{
-                 autoStart: true,
-                 loop: true,                  
-                 delay: 75,                   
-                 deleteSpeed: 50,           
-               }}
-             onInit={(typewriter) => {
-             typewriter
-            .typeString("Web Developer")
-            .pauseFor(1000)
-            .deleteAll()
-            .typeString("Software Developer")
-            .pauseFor(1000)
-            .deleteAll()
-            .typeString("Frontend Developer")
-            .pauseFor(1000)
-            .deleteAll()
-            .start();
-            }}
-            />
-
-            </span></h1>
-            <p className="text-xl md:text-sm font-serif text-gray-400 max-w-lg py-4">   I am a React.js Developer and passionate about making user-friendly websites.
-              <span className="text-xl md:text-sm font-serif text-gray-400 italic mt-2 block pt-2">  “Great web design without functionality is like a sports car with no engine.” </span>
-            </p>   
-          </div>
-          <img className="w-1/4 pt-4 rounded-full mt-6 md:mt-0 md:ml-10 hidden md:block" src={photo} alt="Satya Prakash" />
-        </div>
-        <Project/>
-        <Footer />
-      </div>
-    </>
+      <Footer />
+    </div>
   );
 };
 

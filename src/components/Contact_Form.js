@@ -1,51 +1,87 @@
 import { useState } from "react";
 
-const Contact_Form=()=>{
- const [form_data , setForm_data] = useState({
-    Name:"" ,
-    email:"" ,
-    message:"" ,
- }) ;
+const Contact_Form = () => {
+  const [form_data, setForm_data] = useState({
+    Name: "",
+    email: "",
+    message: "",
+  });
 
-  const handleChange=(e)=>{
-      setForm_data({
-         ...form_data ,
-         [e.target.name] : e.target.value 
-      })
-  }
+  const handleChange = (e) => {
+    setForm_data({
+      ...form_data,
+      [e.target.name]: e.target.value,
+    });
+  };
 
-  const handleSubmit_Form=(e)=>{
-      e.preventDefault();
-      console.log(form_data);
-      alert("form Submitted") ;
-  }
+  const handleSubmit_Form = (e) => {
+    e.preventDefault();
+    console.log(form_data);
+    alert("Form Submitted");
+  };
 
-  return(
-  <form  className="w-48 max-w-md pr-2 " onSubmit={handleSubmit_Form}>
-    <div>
+  return (
+    <form
+      className="bg-white shadow-lg rounded-2xl p-6 max-w-lg mx-auto text-gray-800"
+      onSubmit={handleSubmit_Form}
+    >
+      <h2 className="text-2xl font-bold text-center text-blue-600 mb-6">
+        Get in Touch
+      </h2>
 
-      <div className="mt-2 mb-5 ">
-        <label className="font-medium ">Name </label><br/>
-        <input className=" w-full md:w-96 rounded-lg p-1" type="text" onChange={handleChange} name="Name" placeholder="Full Name" required value={form_data.Name}/><br/>
+      {/* Name Field */}
+      <div className="mb-4">
+        <label className="block text-lg font-medium mb-2">Name</label>
+        <input
+          className="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
+          type="text"
+          onChange={handleChange}
+          name="Name"
+          placeholder="Full Name"
+          required
+          value={form_data.Name}
+        />
       </div>
 
-      <div className="mt-5 mb-5">
-        <label className="font-medium ">Email </label><br/> 
-        <input className=" w-full md:w-96 rounded-lg p-1" type="text" placeholder="Email" onChange={handleChange} name="email" required value={form_data.email}/><br/>
-      </div>  
-
-      <div className="mt-5 mb-5">
-        <label className="font-medium ">Message</label><br/>
-        <textarea className=" w-full md:w-96 rounded-lg p-1" type="text" placeholder="Message" onChange={handleChange} name="message" required value={form_data.message}/><br/>
-      </div>  
-      
-      <div className="bg-black  text-gray-50 w-full md:w-96 rounded-lg p-1 flex justify-center font-medium mb-1">
-         <button type="submit" className="w-full"> Submit </button>
+      {/* Email Field */}
+      <div className="mb-4">
+        <label className="block text-lg font-medium mb-2">Email</label>
+        <input
+          className="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
+          type="email"
+          placeholder="Email"
+          onChange={handleChange}
+          name="email"
+          required
+          value={form_data.email}
+        />
       </div>
-      
-    </div>
-   </form>
-  )
-}
 
-export default Contact_Form ;
+      {/* Message Field */}
+      <div className="mb-4">
+        <label className="block text-lg font-medium mb-2">Message</label>
+        <textarea
+          className="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
+          placeholder="Your Message"
+          onChange={handleChange}
+          name="message"
+          required
+          value={form_data.message}
+          rows="5"
+        />
+      </div>
+
+      {/* Submit Button */}
+      <div className="flex justify-center">
+        <button
+          type="submit"
+          className="bg-blue-600 text-white text-lg font-semibold py-3 px-6 rounded-lg hover:bg-blue-700 transition shadow-md w-full"
+        >
+          Send Message
+        </button>
+      </div>
+    </form>
+  );
+};
+
+export default Contact_Form;
