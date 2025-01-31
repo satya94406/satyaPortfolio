@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/satyaPortfolio/static/css/main.db5fc8bc.css",
-    "main.js": "/satyaPortfolio/static/js/main.1d2b27bd.js",
+    "main.css": "/satyaPortfolio/static/css/main.38ee4189.css",
+    "main.js": "/satyaPortfolio/static/js/main.d6a7ce0c.js",
     "static/js/453.000113e4.chunk.js": "/satyaPortfolio/static/js/453.000113e4.chunk.js",
     "static/media/swiggy.jpeg": "/satyaPortfolio/static/media/swiggy.de3dbf4f54ead94b8ea4.jpeg",
     "static/media/youtube1.jpeg": "/satyaPortfolio/static/media/youtube1.c87fff38c423af1046ba.jpeg",
@@ -9,12 +9,12 @@
     "static/media/wheather1.jpeg": "/satyaPortfolio/static/media/wheather1.ab7c15bdcd36d826a80c.jpeg",
     "static/media/logo.jpeg": "/satyaPortfolio/static/media/logo.37c1d135cfa6f3787d63.jpeg",
     "index.html": "/satyaPortfolio/index.html",
-    "main.db5fc8bc.css.map": "/satyaPortfolio/static/css/main.db5fc8bc.css.map",
-    "main.1d2b27bd.js.map": "/satyaPortfolio/static/js/main.1d2b27bd.js.map",
+    "main.38ee4189.css.map": "/satyaPortfolio/static/css/main.38ee4189.css.map",
+    "main.d6a7ce0c.js.map": "/satyaPortfolio/static/js/main.d6a7ce0c.js.map",
     "453.000113e4.chunk.js.map": "/satyaPortfolio/static/js/453.000113e4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.db5fc8bc.css",
-    "static/js/main.1d2b27bd.js"
+    "static/css/main.38ee4189.css",
+    "static/js/main.d6a7ce0c.js"
   ]
 }
