@@ -10,13 +10,11 @@ const App = () => {
     const handleMouseMove = (e) => {
       const { clientX, clientY } = e;
 
-      // Update the small dot cursor immediately
       setDotPosition({ x: clientX, y: clientY });
 
-      // Smooth transition for the outline cursor
       setTimeout(() => {
         setOutlinePosition({ x: clientX, y: clientY });
-      }, 50); // Add a small delay for a trailing effect
+      }, 50); 
     };
 
     window.addEventListener("mousemove", handleMouseMove);
@@ -27,7 +25,7 @@ const App = () => {
   }, []);
 
   return (
-    <div>
+    <div >
       <div
         className="cursor-dot fixed w-2 h-2 bg-white rounded-full pointer-events-none z-50"
         style={{

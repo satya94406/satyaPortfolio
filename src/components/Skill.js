@@ -48,12 +48,12 @@ const skillDetails = [
   const Skill = () => {
     return (
         <>
-        <div className="text-center text-white font-extrabold  text-5xl "
+        <div className="text-center text-white font-extrabold  text-5xl md:text-7xl"
           style={{textShadow: "0 0 15px #ff00ff, 0 0 30px #ff00ff, 0 0 50px #ff00ff"}}
           >
         <h1>SKILLS</h1>
         </div>
-        <div className="flex justify-center mt-10">
+        <div className="flex justify-center mt-10 pl-[20px] pr-[20px]">
         <div className="grid grid-cols-2 md:grid-cols-4  gap-14">
           {skillDetails.map((skill, index) => (
             <div
@@ -63,7 +63,7 @@ const skillDetails = [
               <img
                 src={skill.img}
                 alt={skill.text}
-                className="w-20 h-20 mb-4 rounded-full border-4 border-gray-600 hover:border-teal-400"
+                className="w-20 md:w-48 h-20 md:h-48  mb-4 rounded-full border-4 border-gray-600 hover:border-teal-400"
               />
               <span className="text-lg font-semibold">{skill.text}</span>
             </div>

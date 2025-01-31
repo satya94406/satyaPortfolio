@@ -22,14 +22,13 @@ const Contact_Form = () => {
 
   return (
     <form
-      className="bg-white shadow-lg rounded-2xl p-6 max-w-lg mx-auto text-gray-800"
+      className="bg-white shadow-lg rounded-2xl p-6 max-w-2xl mx-auto text-gray-800"
       onSubmit={handleSubmit_Form}
     >
-      <h2 className="text-2xl font-bold text-center text-blue-600 mb-6">
+      <h2 className="text-4xl font-bold text-center text-blue-600 mb-6">
         Get in Touch
       </h2>
 
-      {/* Name Field */}
       <div className="mb-4">
         <label className="block text-lg font-medium mb-2">Name</label>
         <input
@@ -43,7 +42,6 @@ const Contact_Form = () => {
         />
       </div>
 
-      {/* Email Field */}
       <div className="mb-4">
         <label className="block text-lg font-medium mb-2">Email</label>
         <input
@@ -57,7 +55,6 @@ const Contact_Form = () => {
         />
       </div>
 
-      {/* Message Field */}
       <div className="mb-4">
         <label className="block text-lg font-medium mb-2">Message</label>
         <textarea
@@ -71,7 +68,6 @@ const Contact_Form = () => {
         />
       </div>
 
-      {/* Submit Button */}
       <div className="flex justify-center">
         <button
           type="submit"

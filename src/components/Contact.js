@@ -6,9 +6,9 @@ const Contact = () => {
   return (
     <>
       <div className="bg-slate-700 min-h-screen">
-        <div className="max-w-7xl mx-auto px-6 py-5 pt-0 mt-5">
+        <div className="max-w-6xl mx-auto px-6 py-5 pt-0 mt-5">
           <div
-            className="text-center text-white font-extrabold text-5xl mb-5"
+            className="text-center text-white font-extrabold text-5xl md:text-7xl mb-5"
             style={{
               textShadow: "0 0 15px #ff00ff, 0 0 30px #ff00ff, 0 0 50px #ff00ff",
             }}
@@ -16,7 +16,6 @@ const Contact = () => {
             <h1>Get in Touch</h1>
           </div>
           <div className="flex flex-col lg:flex-row justify-between items-start gap-10">
-            {/* Contact Info */}
             <div className="lg:w-1/3 bg-white rounded-lg shadow-md p-6 hover:border-4 hover:border-green-500 hover:shadow-2xl hover:shadow-green-400 transition-all ease-in-out duration-300">
               <h2 className="text-2xl font-bold text-amber-600 mb-4">Contact Details</h2>
               <ul className="space-y-4 text-lg">
@@ -72,7 +71,6 @@ const Contact = () => {
               </ul>
             </div>
 
-            {/* Contact Form */}
             <div className="lg:w-2/3 bg-white rounded-lg shadow-md p-6 hover:border-4 hover:border-green-700 hover:shadow-2xl hover:shadow-green-400 transition-all ease-in-out duration-300">
               <Contact_Form />
             </div>

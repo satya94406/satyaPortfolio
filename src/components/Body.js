@@ -8,12 +8,12 @@ import About from "./About";
 
 const Body = () => {
   return (
-    <div className="bg-slate-700 md:pt-14"> 
+    <div className="bg-slate-700 md:pt-14 " > 
       <ScrollToTop />
       <section id="about" className="scroll-mt-20">
         <About/>
       </section>
-      <section id="education" className="scroll-mt-20">
+      <section id="education" className="scroll-mt-20"  >
         <Education_Timeline />
       </section>
       <section id="projects" className="scroll-mt-20">

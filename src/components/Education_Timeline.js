@@ -38,14 +38,14 @@ const Education_Timeline = () => {
     return (
         <>
             <div
-                className="text-center text-white font-extrabold text-5xl"
+                className="text-center text-white font-extrabold text-5xl md:text-7xl"
                 style={{
                     textShadow: "0 0 15px #ff00ff, 0 0 30px #ff00ff, 0 0 50px #ff00ff",
                 }}
             >
                 <h1>EDUCATION</h1>
             </div>
-            <div className="w-full flex my-2 justify-center items-center flex-col">
+            <div className="w-full flex my-2 justify-center items-center flex-col pl-[20px] pr-[20px]">
                 {education_details.map((edu, index) => (
                     <motion.div
                         key={index}
@@ -57,12 +57,11 @@ const Education_Timeline = () => {
                     >
                         <div
                             key={index}
-                            className="relative bg-black m-2  mb-5 w-52 md:w-72 p-4  rounded-md border-4 border-green-500 shadow-lg overflow-hidden"
+                            className="relative bg-black m-2  mb-5 w-[60%] md:w-[40%] p-4  rounded-md border-4 border-green-500 shadow-lg overflow-hidden"
                             style={{
-                                boxShadow: "0 0 15px rgba(34, 197, 94, 0.7), 0 0 30px rgba(34, 197, 94, 0.5)", // Green glow effect
+                                boxShadow: "0 0 15px rgba(34, 197, 94, 0.7), 0 0 30px rgba(34, 197, 94, 0.5)", 
                             }}
                         >
-                            {/* Glowing Border Animation */}
                             <div
                                 className="absolute inset-0 rounded-md border-2 border-green-400 animate-pulse"
                                 style={{
@@ -71,9 +70,9 @@ const Education_Timeline = () => {
                                 }}
                             ></div>
 
-                            <h1 className="font-bold text-lg text-center text-white mb-2">{edu.degree}</h1>
-                            <h1 className="font-semibold text-sm text-center text-white">{edu.duration}</h1>
-                            <h1 className="text-sm text-center italic text-white">{edu.institution}</h1>
+                            <h1 className="font-bold text-2xl text-center text-white mb-2">{edu.degree}</h1>
+                            <h1 className="font-semibold text-lg text-center text-white">{edu.duration}</h1>
+                            <h1 className="text-lg text-center italic text-white">{edu.institution}</h1>
                         </div>
                     </motion.div>
                 ))}

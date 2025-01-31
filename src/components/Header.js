@@ -14,24 +14,24 @@ const Header = () => {
   const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
     if (section) {
-      const desktopHeaderHeight = 104; // Adjust this value based on your header height
+      const desktopHeaderHeight = 104; 
       const sectionPosition = section.offsetTop - desktopHeaderHeight;
       window.scrollTo({ top: sectionPosition, behavior: "smooth" });
     }
-    setIsMenuOpen(false); // Close mobile menu
+    setIsMenuOpen(false); 
   };
 
   useEffect(() => {
     const handleIntersection = (entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          setActiveSection(entry.target.id); // Set active section based on ID
+          setActiveSection(entry.target.id); 
         }
       });
     };
 
     const observer = new IntersectionObserver(handleIntersection, {
-      rootMargin: "-50% 0px", // Trigger when the section is halfway in the viewport
+      rootMargin: "-50% 0px", 
     });
 
     const sections = document.querySelectorAll("section");
@@ -42,13 +42,13 @@ const Header = () => {
 
   return (
     <header className="bg-gradient-to-r from-slate-500 to-slate-700 fixed w-full top-0 z-20 shadow-lg">
-      <div className="flex items-center justify-between px-6 py-4 md:py-5 max-w-7xl mx-auto">
+      <div className="flex items-center justify-between px-6 py-4 md:py-5  mx-auto">
         <img
-          className="w-14 h-14 md:w-16 md:h-16 rounded-full object-cover"
+          className="w-[40px] h-[40px] md:w-[68px] md:h-[68px] rounded-full object-cover"
           src={logo}
           alt="Logo"
         />
-        <ul className="hidden md:flex space-x-6 lg:space-x-8 text-white font-medium text-base lg:text-lg ">
+        <ul className="hidden md:flex space-x-6 lg:space-x-8 text-white font-medium text-[1.7vw] md:text-[1.7vw] ">
           <li className={`transition ${activeSection === "about" ? "text-amber-400" : "hover:text-amber-400"}`}>
             <button onClick={() => scrollToSection("about")}>About</button>
           </li>

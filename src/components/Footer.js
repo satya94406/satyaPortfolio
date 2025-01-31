@@ -6,7 +6,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Footer = () => {
   return (
     <footer className="bg-gradient-to-r from-slate-700 to-slate-900 text-gray-50 mt-0">
-      {/* Top Section */}
       <div className="text-center py-6">
         <h1 className="text-2xl font-bold text-amber-400">Satya Prakash Tripathi</h1>
         <p className="text-sm max-w-md mx-auto mt-2 text-gray-300">
@@ -14,7 +13,6 @@ const Footer = () => {
         </p>
       </div>
 
-      {/* Social Links */}
       <div className="flex justify-center gap-6 py-4">
         <a
           href="https://x.com/TripathiSa12443?t=gtVkG6oOMB8S1baj4Z7PZw&s=09"
@@ -42,12 +40,10 @@ const Footer = () => {
         </a>
       </div>
 
-      {/* Divider */}
       <div className="border-t border-gray-600 max-w-screen-lg mx-auto"></div>
 
-      {/* Bottom Section */}
       <div className="py-4">
-        <p className="text-center text-xs text-gray-400">
+        <p className="text-center text-sm text-gray-400">
           &copy; 2024 Satya Prakash Tripathi. All Rights Reserved.
         </p>
       </div>
