@@ -1,6 +1,10 @@
 import swiggy from "../Assests/images/swiggy.jpeg";
 import wheather from "../Assests/images/wheather1.jpeg";
 import youtube1 from "../Assests/images/youtube1.jpeg";
+import currency_converter from "../Assests/images/curr.converter.png";
+import TicTacToe from "../Assests/images/TicTacToe.png";
+import Stone_paper_scissor from "../Assests/images/Stone_pap_sci.png";
+import Portfolio from "../Assests/images/Portfolio.png";
 
 const Project = () => {
   return (
@@ -15,13 +19,15 @@ const Project = () => {
         Amazing PROJECTS
       </h1>
 
+      
+
       <div className="space-y-10">
         <ProjectCard
-          title="YouTube Clone"
-          description="Built a YouTube clone using React.js, featuring simulated YouTube content powered by fake API data for a seamless and interactive user experience."
-          sourceCode="https://github.com/satya94406/youtube"
-          liveDemo="https://satya94406.github.io/youtube/"
-          imgSrc={youtube1}
+          title="Currency Converter"
+          description="A sleek and efficient Currency Converter built with HTML, CSS, and JavaScript, using a real-time API for accurate exchange rates."
+          sourceCode="https://github.com/satya94406/Currency-Converter.git"
+          liveDemo="https://satya94406.github.io/Currency-Converter/"
+          imgSrc={currency_converter}
         />
 
         <ProjectCard
@@ -33,12 +39,44 @@ const Project = () => {
         />
 
         <ProjectCard
+          title="Tic Tac Toe"
+          description="A fun and interactive Tic-Tac-Toe game built with HTML, CSS, and JavaScript for a seamless gaming experience."
+          sourceCode="https://github.com/satya94406/tic-tac-toe.git"
+          liveDemo="https://satya94406.github.io/tic-tac-toe/"
+          imgSrc={TicTacToe}
+        />
+
+        <ProjectCard
+          title="Rock paper Scissor ✊✋✂️"
+          description="A classic Rock Paper Scissors game built with HTML, CSS, and JavaScript for an exciting and interactive experience."
+          sourceCode="https://github.com/satya94406/Rock-Paper-Scissors.git"
+          liveDemo="https://satya94406.github.io/Rock-Paper-Scissors/"
+          imgSrc={Stone_paper_scissor}
+        />
+
+        <ProjectCard
+          title="Personal Portfolio"
+          description="A sleek and interactive Personal Portfolio built with React.js and Tailwind CSS, designed to showcase my skills and projects in a modern and engaging way."
+          sourceCode="https://github.com/satya94406/satyaPortfolio.git"
+          liveDemo="https://satya94406.github.io/satyaPortfolio/"
+          imgSrc={Portfolio}
+        />
+
+        <ProjectCard
+          title="YouTube Clone"
+          description="Built a YouTube clone using React.js, featuring simulated YouTube content powered by fake API data for a seamless and interactive user experience."
+          sourceCode="https://github.com/satya94406/youtube"
+          liveDemo="https://satya94406.github.io/youtube/"
+          imgSrc={youtube1}
+        />
+
+        <ProjectCard
           title="Swiggy Clone"
           description="Developed a dynamic Swiggy-inspired web application utilizing React.js, Tailwind CSS, and Firebase"
           sourceCode="https://github.com/satya94406/swiggy"
           liveDemo="https://satya94406.github.io/swiggy/"
           imgSrc={swiggy}
-        />
+        /> 
       </div>
     </div>
   );
