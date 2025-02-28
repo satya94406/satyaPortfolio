@@ -5,6 +5,7 @@ import currency_converter from "../Assests/images/curr.converter.png";
 import TicTacToe from "../Assests/images/TicTacToe.png";
 import Stone_paper_scissor from "../Assests/images/Stone_pap_sci.png";
 import Portfolio from "../Assests/images/Portfolio.png";
+import Todo from "../Assests/images/Todo.png";
 
 const Project = () => {
   return (
@@ -22,12 +23,21 @@ const Project = () => {
       
 
       <div className="space-y-10">
+       
         <ProjectCard
           title="Currency Converter"
           description="A sleek and efficient Currency Converter built with HTML, CSS, and JavaScript, using a real-time API for accurate exchange rates."
           sourceCode="https://github.com/satya94406/Currency-Converter.git"
           liveDemo="https://satya94406.github.io/Currency-Converter/"
           imgSrc={currency_converter}
+        />
+
+        <ProjectCard
+          title="Todo App"
+          description="A simple and efficient Todo App built using React.js, Redux for state management, and styled with Tailwind CSS. "
+          sourceCode="https://github.com/satya94406/todo-app"
+          liveDemo="https://satya94406.github.io/Todo-App/"
+          imgSrc={Todo}
         />
 
         <ProjectCard
