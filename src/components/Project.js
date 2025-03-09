@@ -6,7 +6,7 @@ import TicTacToe from "../Assests/images/TicTacToe.png";
 import Stone_paper_scissor from "../Assests/images/Stone_pap_sci.png";
 import Portfolio from "../Assests/images/Portfolio.png";
 import Todo from "../Assests/images/Todo.png";
-
+import Calculator from "../Assests/images/Calculator.png"
 const Project = () => {
   return (
     <div className="text-white bg-gradient-to-br bg-slate-700 min-h-screen p-5 pt-0">
@@ -38,6 +38,14 @@ const Project = () => {
           sourceCode="https://github.com/satya94406/todo-app"
           liveDemo="https://satya94406.github.io/Todo-App/"
           imgSrc={Todo}
+        />
+
+        <ProjectCard
+          title="Calculator"
+          description="Developed a fully functional calculator using React.js and Vite, supporting basic arithmetic operations with a clean and intuitive UI."
+          sourceCode="https://github.com/satya94406/Calculator"
+          liveDemo="https://satya94406.github.io/Calculator/"
+          imgSrc={Calculator}  
         />
 
         <ProjectCard
