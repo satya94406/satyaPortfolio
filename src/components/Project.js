@@ -35,8 +35,8 @@ const Project = () => {
         <ProjectCard
           title="Todo App"
           description="A simple and efficient Todo App built using React.js, Redux for state management, and styled with Tailwind CSS. "
-          sourceCode="https://github.com/satya94406/todo-app"
-          liveDemo="https://satya94406.github.io/Todo-App/"
+          sourceCode="https://github.com/satya94406/my-todo-list-app.git"
+          liveDemo="https://my-todo-list-app-tau.vercel.app/"
           imgSrc={Todo}
         />
 
