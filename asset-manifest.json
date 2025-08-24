@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/satyaPortfolio/static/css/main.38ee4189.css",
-    "main.js": "/satyaPortfolio/static/js/main.5dc14a14.js",
+    "main.js": "/satyaPortfolio/static/js/main.5c1b0860.js",
     "static/js/453.000113e4.chunk.js": "/satyaPortfolio/static/js/453.000113e4.chunk.js",
     "static/media/swiggy.jpeg": "/satyaPortfolio/static/media/swiggy.de3dbf4f54ead94b8ea4.jpeg",
     "static/media/Portfolio.png": "/satyaPortfolio/static/media/Portfolio.7cf8b3fd4eaabdaba036.png",
@@ -10,17 +10,17 @@
     "static/media/wheather1.jpeg": "/satyaPortfolio/static/media/wheather1.ab7c15bdcd36d826a80c.jpeg",
     "static/media/Stone_pap_sci.png": "/satyaPortfolio/static/media/Stone_pap_sci.4ef37890a84c77d27d0d.png",
     "static/media/curr.converter.png": "/satyaPortfolio/static/media/curr.converter.91b02e040f5310fd3af8.png",
+    "static/media/Todo.png": "/satyaPortfolio/static/media/Todo.9e0529fa10d1798b202d.png",
     "static/media/logo.jpeg": "/satyaPortfolio/static/media/logo.37c1d135cfa6f3787d63.jpeg",
-    "static/media/Todo.png": "/satyaPortfolio/static/media/Todo.812a146305a8bcfc96d6.png",
     "static/media/TicTacToe.png": "/satyaPortfolio/static/media/TicTacToe.0158fca0f86496afde2d.png",
     "static/media/Calculator.png": "/satyaPortfolio/static/media/Calculator.174c71b8b00759ad15a0.png",
     "index.html": "/satyaPortfolio/index.html",
     "main.38ee4189.css.map": "/satyaPortfolio/static/css/main.38ee4189.css.map",
-    "main.5dc14a14.js.map": "/satyaPortfolio/static/js/main.5dc14a14.js.map",
+    "main.5c1b0860.js.map": "/satyaPortfolio/static/js/main.5c1b0860.js.map",
     "453.000113e4.chunk.js.map": "/satyaPortfolio/static/js/453.000113e4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.38ee4189.css",
-    "static/js/main.5dc14a14.js"
+    "static/js/main.5c1b0860.js"
   ]
 }
